@@ -1,0 +1,9 @@
+﻿namespace chat_service_maui;
+
+public partial class AppShell : Shell
+{
+	public AppShell()
+	{
+		InitializeComponent();
+	}
+}

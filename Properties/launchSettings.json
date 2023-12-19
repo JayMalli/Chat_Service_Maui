@@ -1,0 +1,44 @@
+{
+  "profiles": {
+    "Windows (Debug)": {
+      "commandName": "Project",
+      "commandLineArgs": "--device windows --theme Light",
+      "workingDirectory": "$(ProjectDir)",
+      "launchBrowser": true,
+      "launchUrl": "",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "Windows (Release)": {
+      "commandName": "Project",
+      "commandLineArgs": "--device windows --theme Light",
+      "workingDirectory": "$(ProjectDir)",
+      "launchBrowser": true,
+      "launchUrl": "",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Production"
+      }
+    },
+    "Mac (Debug)": {
+      "commandName": "Project",
+      "commandLineArgs": "--device macos --theme Light",
+      "workingDirectory": "$(ProjectDir)",
+      "launchBrowser": true,
+      "launchUrl": "",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "Mac (Release)": {
+      "commandName": "Project",
+      "commandLineArgs": "--device macos --theme Light",
+      "workingDirectory": "$(ProjectDir)",
+      "launchBrowser": true,
+      "launchUrl": "",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Production"
+      }
+    }
+  }
+}
